@@ -1,7 +1,9 @@
 # Convolutional Neural Network (CNN)
 
 In this part of the assignment you will create and test a small [Convolutional Neural Network](https://en.wikipedia.org/wiki/Convolutional_neural_network) (CNN).
-Such a network can train directly from image data, so the feature extraction is done in the convolutional part.
+Such a network can train directly from image data, so the feature extraction is done in the convolutional part, where the classification is done in a fully connected Neural Network.
+
+Before you start it is wise to follow the tutorials below, after that you can go to the assignment.
 
 ## Tutorial
 In the given tutorials you will learn how to build and train a CNN that can distinguish images of Cats and Dogs.
