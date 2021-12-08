@@ -40,3 +40,11 @@ activation_1        (None, 10)          0           dense_1[0][0]
 Total params: 7850
 
 ```
+
+## Monitoring the jetson processes
+
+You can monitor the CPU and GPU, memory and Swap usage of your jetson with a pre-installed program called [Jtop](https://github.com/rbonghi/jetson_stats).
+Start a new putty session and login to your jetson (do not start the docker from this session)
+
+to start it type: $ jtop
+![](Jtop.PNG)
