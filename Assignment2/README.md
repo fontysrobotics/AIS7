@@ -24,14 +24,15 @@ The description of Part B can be found here:
 
 ## Part C
 
-Will be published here next week
+The description of Part C can be found here:
+[PartC_TransferLearning.md](PartC_TransferLearning.md)
 
 
 ## Deliverables
 At the end you have to hand in all the notebook of Assignment 2. When you hand it in you should make sure that you saved it with all output visible. So we can evaluate your notebooks output without directly running it. In addition (to be sure) you should also save a pdf of the final result.
 We also want a short video which shows all the design steps (form collecting data/ training till deployment), in this video you should show and explain us what you did, which design choices you made and why
 
-* Notebooks Part A, Part B, Part C (saved after execution, so all outputs are visible)
+* Notebooks Part A, Part B (saved after execution, so all outputs are visible) and a document of Part C
 * A pdf of these notebooks in the same state (as backup)
 * A video explaining & showing the process and result of Part A, Part B, Part C
 
