@@ -107,6 +107,7 @@ Copy the profile to the correct location and make it executable
 > 
 > `sudo chown root:root /var/nvidia/nvcam/settings/camera_overrides.isp`
 
+![](Data/Camera_filtered.PNG)
 
 ## Starting an inference networks
 
