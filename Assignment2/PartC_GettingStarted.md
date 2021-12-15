@@ -67,6 +67,11 @@ We provided you with a raspberry pi type Camera and a camera mount. You should i
 
 > NOTE: There is no Infra Red filter on this camera, which means it is suitable for low light conditions, but in normal conditions the output looks a bit Red.
 
+`wget https://www.dropbox.com/s/u80hr1o8n9hqeaj/camera_overrides.isp`
+`sudo cp camera_overrides.isp /var/nvidia/nvcam/settings/
+sudo chmod 664 /var/nvidia/nvcam/settings/camera_overrides.isp
+sudo chown root:root /var/nvidia/nvcam/settings/camera_overrides.isp`
+
 This is how you address the camera:
 
 Raspberry pi camera
