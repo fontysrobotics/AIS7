@@ -97,8 +97,10 @@ https://github.com/dusty-nv/jetson-inference/blob/9b66fbf38dcd0e81f37eb3748db3df
 ### Camera Profile (remove red haze)
 If you want you can download another camera profile, that removes some of the red haze but also washes out colors, to do this you should run these commands in the standard jetson image (so before you start the docker)
 
-Download the profile
-> `wget https://www.dropbox.com/s/u80hr1o8n9hqeaj/camera_overrides.isp`
+Download and unpack the profile
+> `wget https://www.waveshare.com/w/upload/e/eb/Camera_overrides.tar.gz`
+> 
+> `tar zxvf Camera_overrides.tar.gz`
 
 Copy the profile to the correct location and make it executable
 > `sudo cp camera_overrides.isp /var/nvidia/nvcam/settings/`
